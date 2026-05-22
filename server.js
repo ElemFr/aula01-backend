@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
     
     app.get('/', (req, res) => {
-    res.send('Pagina Inicial com Express');
+    res.send('Pagina Inicial ');
 });
 
     app.get('/sobre', (req, res) => {
